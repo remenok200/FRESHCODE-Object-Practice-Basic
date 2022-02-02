@@ -1,3 +1,5 @@
+'use strict';
+
 // конструктор
 function Car(manufacturer, model, color, releaseYear, fuelConsumption, volume) {
     this.drive = function() {
