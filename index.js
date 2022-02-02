@@ -11,7 +11,7 @@ function Car(manufacturer, model, color, releaseYear, fuelConsumption, volume) {
     this.fuelConsumption = fuelConsumption;
     this.volume = volume;
 
-    return this.Car; // решил не забыть про эту строчку
+    return this; // решил не забыть про эту строчку
 }
 
 // создаю три объекта
